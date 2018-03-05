@@ -1,0 +1,36 @@
+.heading {
+  display: block;
+  margin: 0 auto;
+}
+.navigation {
+  position: fixed;
+}
+.box {
+  width: 90%;
+  height: 90vh;
+  background-color: #774;
+  margin: 10px 120px;
+}
+
+.link {
+  color: #006;
+}
+#go-top {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 20px 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+#go-top:hover {
+  background-color: #555;
+  transition-duration: .7s;
+}

@@ -1,0 +1,31 @@
+#side-menu {
+  position: absolute;
+  margin: 0;
+  padding: 20px;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  color: #fff;
+  background: #257;
+  list-style-type: none;
+}
+
+/*#side-menu li {
+  position: relative;
+  margin: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}*/
+
+#toggle-button {
+  margin-left: auto;
+  margin-top: 220px;
+  background-color: #aaa;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

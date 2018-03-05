@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="adduser.js"></script>
+</head>
+<body>
+  <form action="#" id="form">
+    <label className="label" for="name">Input employee name</label><br>
+    <input id="name" name="name" type="text" tabindex="1" placeholder="FirstName + LastName" pattern="/\w+/g"><br>
+    <label className="label" for="sellary">Input employee sallary per month</label><br>
+    <input id="sellary" name="sellary" type="number" tabindex="2" value="1" required><br>
+    <label className="label" for="rate">Input employee hour rate</label><br>
+    <input id="rate" name="rate" type="number" tabindex="3" value="0"><br>
+    <input id="submit" type="button" value="Add Employee" tabindex="4">    
+  </form>
+  <hr>
+  <ul id="listFive"></ul>
+  <br>
+  <hr>
+  <ul id="lastThree"></ul>
+  
+</body>
+</html>

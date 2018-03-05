@@ -1,0 +1,13 @@
+.navigation {
+  position: fixed;
+}
+.box {
+  width: 90%;
+  height: 90vh;
+  background-color: #774;
+  margin: 10px 120px;
+}
+
+.link {
+  color: #006;
+}

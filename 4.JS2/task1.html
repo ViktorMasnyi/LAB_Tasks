@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS1 Task1</title>
+  <link rel="stylesheet" href="./task1.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="./task1.js"></script>
+</head>
+<body>
+  <div id="filters" class="button-group">
+    <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".code">Code</button>
+    <button class="button" data-filter=".ui">UI</button>
+  </div>
+  <div class="grid">
+    <div class="grid-item">Default Box</div>
+    <div class="grid-item grid-item--width2 code">Code</div>
+    <div class="grid-item ui">UI</div>
+    <div class="grid-item ui">UI</div>
+    <div class="grid-item ui">UI</div>
+    <div class="grid-item ui">UI</div>
+    <div class="grid-item ui">UI</div>
+    <div class="grid-item grid-item--width2 code">Code</div>
+    <div class="grid-item grid-item--width2 code">Code</div>
+    <div class="grid-item grid-item--width2 code">Code</div>
+    <div class="grid-item grid-item--width2 code">Code</div>
+    <div class="grid-item">Default Box</div>
+  </div>
+</body>
+</html>

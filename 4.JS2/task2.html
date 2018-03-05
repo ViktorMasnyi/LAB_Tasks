@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS1 Task2</title>
+  <link rel="stylesheet" href="./task2.css">
+  <script src="./task2.js"></script>
+</head>
+<body>
+  <h1 class="header">Skills</h1>
+  <form id="form">    
+    <p class="label">Skill Name:
+    <input 
+      type="text"
+      id="skillName"
+      name="skillName" 
+      data-val="^[\w ]{1,100}$"
+      data-val-msg="Please enter Skill Name with 1 to 100 characters"
+      data-val-msg-id="skillNameMsg"
+      placeholder="Enter Skill Name"
+    /></p>
+    <span id="skillNameMsg"></span>
+    <br />    
+    <p class="label">Skill Range:
+    <input 
+      type="text" 
+      id="skillRange"
+      name="skillRange" 
+      data-val="(?:\b|-)([1-9]{1,2}[0]?|100)\b"
+      data-val-msg="Please enter ammount of points in 1 to 100 range"
+      data-val-msg-id="skillRangeMsg"
+      placeholder="Enter Skill Range"
+    /></p>
+    <span id="skillRangeMsg"></span>
+    <br />       
+    <input id="submit" type="button" value="Add skill"/>
+  </form>
+  <ul id="skills"></ul>
+	<hr />
+	<ul class="grades">
+		<li>Beginner</li>
+		<li>Proficient</li>
+		<li>Expert</li>
+		<li>Master</li>
+	</ul>
+
+</body>
+</html>
